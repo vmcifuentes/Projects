@@ -1,0 +1,9 @@
+C:\Users\victo\Desktop\Ronald\Ronald\bin\Debug\Ronald.exe.config
+C:\Users\victo\Desktop\Ronald\Ronald\bin\Debug\Ronald.exe
+C:\Users\victo\Desktop\Ronald\Ronald\bin\Debug\Ronald.pdb
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.csprojAssemblyReference.cache
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.Form1.resources
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.Properties.Resources.resources
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.csproj.GenerateResource.cache
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.exe
+C:\Users\victo\Desktop\Ronald\Ronald\obj\Debug\Ronald.pdb

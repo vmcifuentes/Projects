@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* GENERAL SETTINGS */
+h1{
+	font-family: 'Lobster', cursive;
+	font-size:80px;
+	text-align:center;
+}
+
+body{
+	background-color: #fff;
+	background-image:
+		linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+		linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+
+
+body, input{
+	font-size:1em;
+	font-family: 'Lato', sans-serif;
+}
+
+a{
+	text-decoration:none;
+}
+
+/* LIST OBJECT */
+#list{
+	background-color:#fff;
+	margin:70px auto 0px auto;
+	padding:15px;
+	box-sizing:border-box;
+	width:100%;
+	max-width:700px;
+	border-radius:10px;
+	border-top:solid #ccc 1px;
+	border-left:solid #ccc 1px;	
+	box-shadow: 2px 2px 0 rgba(0,0,0,.3);
+}
+
+/* LIST ITEMS */
+
+#list li{
+	margin:0px 25px;
+	border-bottom: solid #ccc 1px;
+	padding:20px;
+	list-style-type:none;
+}
+
+.items{
+	margin:-30px 0px 0px 0px;
+	padding:0;
+}
+
+.items .item{
+	font-weight:bold;
+}
+
+.items .item.done{
+	font-weight:normal;
+	color:#888;
+	font-style:italic;
+	text-decoration:line-through;
+}
+
+.items li:hover{
+	background-color:#eee;
+}
+
+/* DATES */
+.dates{
+	font-size:10px;
+	float:right;
+	color:#888;
+}
+
+/* DONE BUTTON */
+.done-button{
+	display:inline-block;
+	padding-right:10px;
+	color:#888;
+}
+
+.done-button:hover{
+	color:#3cbd56;
+}
+
+/* DELETE BUTTON */
+.delete-button{
+	display:inline-block;
+	padding-right:10px;
+	color:#888;
+}
+
+.delete-button:hover{
+	color:#f00;
+}
+
+/* FORM STYLES */
+form{
+	margin:60px 25px 0px 25px;
+}
+
+form .textbox{
+	width:100%;
+	border:0;
+	border-bottom: solid #ccc 1px;	
+}
+
+form .textbox:focus{
+	outline:none;
+}
+
+form button{
+	width:100%;
+	margin-top:20px;
+	padding:20px;
+	background-color:#888;
+	color:#fff;
+	border:0;
+	font-size:14px;
+	border-radius:6px;
+}
+
+form button:hover{
+	background-color:#3cbd56;
+}
+
+.bold{
+	font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+	text-align:center;
+	font-size:11px;
+	margin:15px auto;
+	color:#888;
+}
+
+/* WARNING */
+.warning{
+	margin-left:25px;
+	font-weight:bold;
+	font-size:18px;
+}
+
+/* PENDING TASKS */
+#tasks{
+	color:#fff;
+	background-color:#f00;
+	padding:10px;
+	border-radius:50px;
+	width:3%;
+	text-align:center;
+	margin: -50px 0px 50px 85%;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charsert="utf-8"/>
+		<title>QuizApp : JavaScript</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<script src="https://kit.fontawesome.com/80c5e8c10f.js" crossorigin="anonymous"></script>	
+		</head>
+	<body>
+		<section id="container">
+			<h1 id="title"><i class="fas fa-chalkboard-teacher"></i> QuizzApp</h1>
+			
+			<!-- START -->		
+			<section id="start"><i class="fas fa-chevron-circle-right"></i> Iniciar </section>
+			
+			<!-- QUIZ -->
+			<section id="quiz" style="display: none;">
+            	<section id="question"></section>
+            	<section id="questionImg"></section>
+            	
+            	<!-- CHOICES  -->
+            	<section id="choices">
+                	<section class="choice" id="a" onclick="checkAnswer('a')"></section>
+                	<section class="choice" id="b" onclick="checkAnswer('b')"></section>
+                	<section class="choice" id="c" onclick="checkAnswer('c')"></section>
+            	</section>
+            	
+            	<!-- TIMER & PROGRESS -->
+            	<section id="timer">
+                	<section id="counter"></section>
+                	<section id="btimeGauge"></section>
+                	<section id="timeGauge"></section>
+            	</section>
+            	<section id="progress"></section>
+        	</section>
+			
+			<!-- SCORE -->        	
+        	<section id="scoreContainer" style="display: none"></section>
+
+			<!-- FOOTER -->
+			<footer>Diseñado y desarrollado por <span class="bold" title="allanruiz@imb-pc.edu.gt">Allan Ruíz</span>, para fines educativos únicamente. @2019</footer>
+		</section>
+		<script src="js/logic.js"></script>
+	</body>
+</html>
