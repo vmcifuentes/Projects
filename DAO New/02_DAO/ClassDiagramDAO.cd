@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_02_DAO.Model.Connection">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAABAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_02_DAO.Model.DAOImplementation">
+    <Position X="5.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAgAAAAAAAAAAAAAAAAAABBAAIAAAAAAAABAAAA=</HashCode>
+      <FileName>DAOImplementation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_02_DAO.Model.Producto">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAEAAQAAAAAAAAAAAAAQAAAAEABAAAAAQAAAAAA=</HashCode>
+      <FileName>Model\Producto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="_02_DAO.IProductDAO">
+    <Position X="3.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAABBAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>IProductDAO.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
